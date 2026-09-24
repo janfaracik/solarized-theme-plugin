@@ -2,9 +2,14 @@
   --solarized-bg: var(--solarized-base3);
   --solarized-primary: var(--solarized-base01);
   --solarized-secondary: var(--solarized-base0);
-  --solarized-card: var(--solarized-bg);
 
-  /* Tab bar */
+  /* Elevation */
+  --elevation-1-background: oklch(from var(--solarized-bg) calc(l + 0.005) c h);
+  --elevation-2-background: oklch(from var(--solarized-bg) calc(l + 0.01) c h);
+  --elevation-3-background: oklch(from var(--solarized-bg) calc(l + 0.015) c h);
+  --elevation-4-background: oklch(from var(--solarized-bg) calc(l + 0.02) c h);
+
+  /* Tab bar - deprecated */
   --tabs-item-background--selected: var(--background);
 
   /* Colors */
@@ -23,9 +28,14 @@
     --solarized-bg: var(--solarized-base3);
     --solarized-primary: var(--solarized-base01);
     --solarized-secondary: var(--solarized-base0);
-    --solarized-card: var(--solarized-bg);
 
-    /* Tab bar */
+    /* Elevation */
+    --elevation-1-background: oklch(from var(--solarized-bg) calc(l + 0.005) c h);
+    --elevation-2-background: oklch(from var(--solarized-bg) calc(l + 0.01) c h);
+    --elevation-3-background: oklch(from var(--solarized-bg) calc(l + 0.015) c h);
+    --elevation-4-background: oklch(from var(--solarized-bg) calc(l + 0.02) c h);
+
+    /* Tab bar - deprecated */
     --tabs-item-background--selected: var(--background);
 
     /* Colors */

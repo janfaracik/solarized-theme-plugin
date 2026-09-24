@@ -12,14 +12,14 @@
   /* Tabs - Deprecated */
   --tabs-background: var(--table-background);
 
-  /* Table */
+  /* Table - deprecated */
   --table-background: color-mix(in srgb, var(--background) 92.5%, var(--text-color-secondary));
 
   /* Side panel */
   --panel-border-color: color-mix(in srgb, var(--text-color-secondary) 15%, var(--card-background));
 
-  /* Form */
-  --input-color: color-mix(in srgb, var(--text-color-secondary) 3%, var(--background));
+  /* Form - deprecated */
+  --input-color: var(--elevation-2-background);
   --input-border: color-mix(in srgb, var(--text-color-secondary) 30%, var(--background));
   --input-border-hover: color-mix(in srgb, var(--text-color-secondary) 40%, var(--background));
 
@@ -42,8 +42,8 @@
   );
   --item-box-shadow--focus: oklch(from var(--text-color-secondary) l c h / 0.1);
 
-  /* Card */
-  --card-background: var(--solarized-card);
+  /* Card - deprecated */
+  --card-background: var(--elevation-2-background);
 
   /* Colors */
   --light-blue: oklch(from var(--blue) calc(l + 0.2) c h);
